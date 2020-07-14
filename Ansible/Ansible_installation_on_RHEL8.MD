@@ -45,7 +45,7 @@
    ```sh
    ansible --version
    ```
-1. From ansadmin create "ansble directory" (on Control node)    
+1. From ansadmin create "ansible directory" (on Control node)    
    ```sh
    sudo mkdir /etc/ansible
    ```
@@ -53,7 +53,7 @@
    ```sh
    [ansadmin@ip-10-10-1-74 ansible]$  vi hosts
    ```
-NOTE: Keep all host servers private IP's in host file
+       NOTE: Keep all host servers private IP's in host file
 
 1. Log in as a ansadmin user on master and generate ssh key (on Control node)
    ```sh 
